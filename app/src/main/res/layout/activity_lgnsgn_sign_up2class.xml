@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/signup2_screen_scroll_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.LoginSignup.SignUp2class"
+    android:background="@color/colorPrimary"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/signup_backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:padding="3dp"
+            android:transitionName="back_btn_Transition"/>
+
+        <TextView
+            android:id="@+id/signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/muli_extrabold"
+            android:text="Create \nAccount"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:transitionName="title_Transition" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp">
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/country_Code_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ccp_areaCodeDetectedCountry="true"
+                app:ccp_showFlag="true"
+                app:ccp_showNameCode="true"
+                android:padding="5dp"
+                android:background="@drawable/black_border"
+                app:ccp_showFullName="true"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_phonenum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                app:startIconDrawable="@drawable/phone_icon"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeColor="#000"
+                app:hintTextColor="#000"
+                android:textColorHint="#000"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="phone"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="#000"
+            android:elevation="5dp"
+            android:fontFamily="@font/muli_extrabold"
+            android:text="Get OTP"
+            android:onClick="callverifyOTP"
+            android:textColor="@color/colorPrimary"
+            android:transitionName="next_btn_Transition" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

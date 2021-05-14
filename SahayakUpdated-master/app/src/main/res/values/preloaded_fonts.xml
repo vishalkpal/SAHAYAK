@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/baloo</item>
+        <item>@font/bangers</item>
+        <item>@font/bree_serif</item>
+        <item>@font/muli_extrabold</item>
+        <item>@font/muli_light</item>
+        <item>@font/nunito_bold</item>
+    </array>
+</resources>

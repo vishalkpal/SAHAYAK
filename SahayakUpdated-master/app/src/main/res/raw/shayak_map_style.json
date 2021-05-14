@@ -1,0 +1,112 @@
+[
+  {
+    "featureType": "poi.attraction",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "saturation": 15
+      },
+      {
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "featureType": "poi.medical",
+    "stylers": [
+      {
+        "saturation": 35
+      },
+      {
+        "visibility": "on"
+      },
+      {
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "featureType": "poi.medical",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "color": "#e50606"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "saturation": 15
+      },
+      {
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "saturation": 15
+      },
+      {
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "on"
+      },
+      {
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "on"
+      },
+      {
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "saturation": 15
+      },
+      {
+        "weight": 2
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "saturation": 15
+      },
+      {
+        "weight": 2
+      }
+    ]
+  }
+]

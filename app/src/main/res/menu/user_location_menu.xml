@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Circle">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_myCircle"
+                    android:title="My Circle"
+                    android:icon="@drawable/profile_icon"/>
+                <item
+                    android:id="@+id/nav_createCircle"
+                    android:title="Create Circle"
+                    android:icon="@drawable/ic_add_circle_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_joinCircle"
+                    android:title="Join Circle"
+                    android:icon="@drawable/profile_icon"/>
+
+                <item
+                    android:id="@+id/nav_mygrp"
+                    android:title="My Group"
+                    android:icon="@drawable/logout"/>
+                <item
+                    android:id="@+id/nav_in8Mrmbr"
+                    android:title="Invite Member"
+                    android:icon="@drawable/logout"/>
+
+                <item
+                    android:id="@+id/nav_shareLocation"
+                    android:title="Share Location"
+                    android:icon="@drawable/logout"/>
+
+
+
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+    <item android:title="Profile">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/profile_icon"/>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="LogOut"
+                    android:icon="@drawable/logout"/>
+
+
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Share">
+
+        <menu>
+
+            <group
+                android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/ic_share_black_24dp"/>
+
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rate Us"
+                    android:icon="@drawable/ic_stars_black_30dp"/>
+
+
+
+
+            </group>
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

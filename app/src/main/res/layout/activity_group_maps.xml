@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maps.GroupMapsActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <com.github.kmenager.materialanimatedswitch.MaterialAnimatedSwitch
+                android:id="@+id/locationSwitch"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ball_press_color="@color/White"
+                app:ball_radius="15dp"
+                app:ball_release_color="@color/colorAccent"
+                app:base_press_color="@color/lightwhite"
+                app:base_release_color="@color/colorPrimary"
+
+
+
+                app:icon_size="25dp"
+                app:margin="17dp"
+                app:switch_height="35dp"
+                app:switch_width="65dp" />
+
+
+        </LinearLayout>
+
+    </fragment>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            app:cardElevation="10dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="16dp"-->
+<!--                android:orientation="vertical"-->
+<!--                android:weightSum="10">-->
+
+<!--                <com.github.kmenager.materialanimatedswitch.MaterialAnimatedSwitch-->
+<!--                    android:id="@+id/locationSwitch"-->
+
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:ball_press_color="@color/White"-->
+<!--                    app:ball_radius="15dp"-->
+<!--                    app:ball_release_color="@color/colorAccent"-->
+<!--                    app:base_press_color="@color/lightwhite"-->
+<!--                    app:base_release_color="@color/colorPrimary"-->
+
+
+
+<!--                    app:icon_size="25dp"-->
+<!--                    app:margin="17dp"-->
+<!--                    app:switch_height="35dp"-->
+<!--                    app:switch_width="65dp" />-->
+
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--    </RelativeLayout>-->
+
+
+</FrameLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.Onboarding">
+
+    <androidx.viewpager.widget.ViewPager
+
+        android:id="@+id/sliderpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <Button
+            android:id="@+id/letsGetStartedbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/let_s_get_started"
+            android:onClick="DirDashboard"
+            android:visibility="invisible"
+            android:background="@color/colorPrimary"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/slider_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#00000000"
+            android:padding="30dp"
+            android:text=">"
+            android:onClick="next"
+            android:textAlignment="viewEnd"
+            android:textSize="24sp" />
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

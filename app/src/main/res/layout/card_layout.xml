@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:foreground="?selectableItemBackground"
+    cardview:cardCornerRadius="12dp"
+    cardview:cardElevation="3dp"
+    cardview:contentpadding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Users"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ActivecardCircleBtn"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/red_circle"
+
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

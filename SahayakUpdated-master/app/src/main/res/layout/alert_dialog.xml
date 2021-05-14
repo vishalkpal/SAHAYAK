@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/shops_icon"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Ashiwni singh"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:+91000000000"/>
+
+    <TextView
+        android:id="@+id/encountered"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entered in : 8"/>
+    <Button
+        android:id="@+id/acceptBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        style="@style/Widget.AppCompat.Button.Colored"
+
+        />
+</LinearLayout>

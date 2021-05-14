@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Maps.CreateCircle">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="40sp"
+
+        android:text="Create New Circle"/>
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icons8_user_groups_80"
+        android:layout_marginBottom="20dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Circle Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#000"
+        app:boxStrokeWidthFocused="2dp"
+        android:id="@+id/textCreatecirclename"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:fontFamily="@font/muli_light"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/code_createCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXXX"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+    <Button
+        android:id="@+id/CreateCircle_generateCode"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Circle Code"
+        android:background="@color/colorPrimary"
+        android:onClick="GenerateCode"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/Create_circle"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Circle"
+        android:background="@color/colorPrimary"
+        android:onClick="CreateCircleOnTheDatabase"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+
+
+</ScrollView>
