@@ -1,4 +1,4 @@
-# SahayakUpdated
+# Sahayak
 
 An app that prevent users from entering any corona prone zones and also provide live status of to the user of his/her family &amp; friends
 
